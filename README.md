@@ -4,7 +4,7 @@ Bilingual (Deutsch / English) portfolio website for a career-changer applying fo
 an **Ausbildung als Fachinformatiker für Daten- und Prozessanalyse**. Dark "data
 dashboard" aesthetic, built with Next.js and Tailwind, with motion throughout.
 
-**Live site:** _add your Vercel URL here after deploying_
+**Live site:** https://alirezasharifzadehportfolio.vercel.app
 
 ## Features
 
