@@ -75,11 +75,10 @@ export const dictionaries = {
     },
     impressum: {
       title: "Impressum",
-      subtitle: "Angaben gemäß § 5 TMG",
+      subtitle: "Private, nicht-kommerzielle Website",
       responsibleTitle: "Verantwortlich für den Inhalt",
       contactTitle: "Kontakt",
-      addressPlaceholder: "[Anschrift ergänzen]",
-      note: "Hinweis: Diese Seite dient der persönlichen Bewerbung. Bitte ergänzen Sie eine ladungsfähige Anschrift, falls erforderlich.",
+      note: "Diese Website ist ein privates Bewerbungsportfolio ohne kommerzielle Absicht. Eine ladungsfähige Anschrift wird auf Anfrage bereitgestellt.",
       back: "Zurück zur Startseite",
     },
     langToggle: {
@@ -160,11 +159,10 @@ export const dictionaries = {
     },
     impressum: {
       title: "Legal Notice",
-      subtitle: "Information pursuant to § 5 TMG",
+      subtitle: "Private, non-commercial website",
       responsibleTitle: "Responsible for content",
       contactTitle: "Contact",
-      addressPlaceholder: "[address to be added]",
-      note: "Note: This page supports a personal job application. Please add a valid postal address if required.",
+      note: "This website is a private, non-commercial job-application portfolio. A postal address is available on request.",
       back: "Back to home",
     },
     langToggle: {

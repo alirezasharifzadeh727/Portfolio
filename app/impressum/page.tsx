@@ -33,7 +33,6 @@ export default function ImpressumPage() {
             </h2>
             <div className="mt-3 space-y-1 text-text-secondary">
               <p className="text-text-primary">{personal.name}</p>
-              <p>{i.addressPlaceholder}</p>
             </div>
           </section>
 
@@ -41,12 +40,20 @@ export default function ImpressumPage() {
             <h2 className="font-mono text-sm uppercase tracking-[0.15em] text-accent">
               {i.contactTitle}
             </h2>
-            <div className="mt-3 space-y-1 text-text-secondary">
+            <div className="mt-3 flex flex-col gap-1 text-text-secondary">
               <a
                 href={`mailto:${personal.email}`}
                 className="font-mono text-sm transition-colors hover:text-accent"
               >
                 {personal.email}
+              </a>
+              <a
+                href={personal.linkedinUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-mono text-sm transition-colors hover:text-accent"
+              >
+                {personal.linkedinLabel}
               </a>
             </div>
           </section>
